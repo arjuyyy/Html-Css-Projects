@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container {
+    background-color: #0c1729;
+    color:white;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color: hsl(216, 50%, 16%);
+    max-width: 340px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.image-container {
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    position: relative; 
+
+}
+.image-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.image-overlay img {
+    position: absolute;
+}
+.image-overlay:hover {
+    opacity: 1;
+}
+.image-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card > p {
+    color: hsl(215, 51%, 70%);
+}
+h2 {
+    color: white;
+    margin: 15px 0;
+    cursor: pointer;
+}
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0 20px;
+    width: 100%;
+}
+.info-container .price-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    color:hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+.info-container .time-left-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    color:hsl(215, 51%, 70%);
+}
+.eth-container, .clock-container {
+    display: flex;
+    justify-content: center;
+}
+.horizontal-line {
+    background-color:hsl(215, 32%, 27%);
+    height: 1px;
+    width: 100%;
+}
+.author-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+.author-container .avatar-container {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 1px;
+    border: 1px solid white;
+}
+.avatar-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.author-container p {
+    color:hsl(215, 51%, 70%);
+}
+.author-container .name {
+    color: white;
+    cursor: pointer;
+}
+.name:hover {
+    color:hsl(178, 100%, 50%);
+}
+h2:hover {
+    color:hsl(178, 100%, 50%);
+
+}
