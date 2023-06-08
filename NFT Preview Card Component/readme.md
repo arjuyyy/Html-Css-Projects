@@ -1,4 +1,4 @@
-Here is one of the projects I have done. These challenges are from "frontendmentor.io". Follow my journey on Web Development!
+Here is one of the projects I have done. These challenges are from "frontendmentor.io".
 
 The Challenge : https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U
 
