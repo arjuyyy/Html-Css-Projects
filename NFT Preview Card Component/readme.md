@@ -11,4 +11,4 @@ Big thanks to DISPLAY FLEX PROPERTY!
 #DESIGN PREVIEW
 
 <b>For Desktop</b>
-(./design/desktop-preview.jpg)
+./design/desktop-preview.jpg
