@@ -7,7 +7,7 @@
 
 ## My Solution: https://arjuyyy.github.io/NFT-preview-card-component/
 
-## DESIGN PREVIEW
+## TARGET DESIGN
 *Active State*
 ![active-states](https://github.com/arjuyyy/My-HTML-CSS-Projects/assets/105618124/d404734b-886c-45e1-bda7-c4c0a7115a3d)
 *Desktop Design*
