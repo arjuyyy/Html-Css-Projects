@@ -1,13 +1,9 @@
 # NFT PREVIEW CARD
-> Here is one of the projects I have done. These challenges are from "frontendmentor.io".
+> Here is one of the projects I have done. These challenges are from "frontendmentor.io". I have done this using HTML AND CSS. Big thanks to DISPLAY FLEX PROPERTY! 😄
 
 ## The Challenge : https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U
 
 ## My Solution: https://arjuyyy.github.io/NFT-preview-card-component/
-
-I have done this using HTML AND CSS!
-
-Big thanks to DISPLAY FLEX PROPERTY!
 
 ## DESIGN PREVIEW
 *Active State*
