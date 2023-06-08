@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(221, 100%, 96%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.main-container {
+    background-color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+.first-container {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 50%;
+    text-align: center;
+    padding: 30px 40px 45px;
+    border-radius: 20px;
+}
+.first-container h3 {
+    color: hsl(241, 100%, 89%);
+    margin-bottom: 20px;
+}
+.circle-container {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 50px;
+    margin: 0 auto 30px;
+}
+.circle-container h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
+.circle-container p {
+    color: hsl(241, 100%, 89%);
+    font-size: 14px;
+}   
+.info-container h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+.info-container p {
+    color: hsl(241, 100%, 89%);
+    margin: 0 auto;
+}
+.second-container{
+    background-color: white;
+    width: 50%;
+    padding: 30px 30px 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.second-container h3 {
+    color: #303b5a;
+    margin-bottom: 25px;
+}
+.reaction {
+    background-color:hsla(0, 100%, 67%, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.reaction-title {
+    display: flex;
+    gap: 10px;
+}
+.reaction-title h4{
+    color: hsl(0, 100%, 67%);
+}
+.memory {
+    background-color:hsla(39, 100%, 56%, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.memory-title {
+    display: flex;
+    gap: 10px;
+}
+.memory-title h4 {
+    color: hsl(39, 100%, 56%);
+}
+.verbal {
+    background-color:hsl(166, 100%, 37%, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.verbal-title {
+    display: flex;
+    gap: 10px;
+}
+.verbal-title h4 {
+    color: hsl(166, 100%, 37%);
+}
+.visual {
+    background-color:hsl(234, 85%, 45%, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+}
+.visual-title {
+    display: flex;
+    gap: 10px;
+}
+.visual-title h4 {
+    color: hsl(234, 85%, 45%);
+}
+.a {
+    color: hsl(224, 30%, 27%);
+}
+.b {
+    color: hsla(224, 30%, 27%, 0.5);
+}
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    border: none;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: white;
+    font-size: 15px;
+    background: #303b5a;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 100%;
+}
+.btn:hover {
+    background: hsl(252, 100%, 67%);
+    background-image: -webkit-linear-gradient(top, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background-image: -moz-linear-gradient(top, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background-image: -ms-linear-gradient(top, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background-image: -o-linear-gradient(top, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    text-decoration: none;
+}
+@media (max-width: 435px) {
+    .main-container {
+        margin: 0 0 40px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .first-container, .second-container{
+        width: 100%;
+    }
+    .first-container {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+}
