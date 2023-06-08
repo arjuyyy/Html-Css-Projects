@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:hsl(212, 45%, 89%);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
+}
+.container {
+    background-color: white;
+    border-radius: 18px;
+    height: 440px;
+    max-width: 265px;
+    padding: 15px;
+}
+.qrcode-pic {
+    border-radius: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.info-container {
+    margin-top: 15px;
+    text-align: center;
+}
+h2 {
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 15px;
+}
+p {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+}
