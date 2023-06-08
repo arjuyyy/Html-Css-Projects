@@ -1,6 +1,7 @@
 # PRODUCT PREVIEW CARD
 > *I made this website based on the given instruction and target design*
-> *I have done this using HTML AND CSS. Big thanks to DISPLAY FLEX PROPERTY! 😄*
+> 
+> *I have done this using HTML AND CSS. Big thanks to DISPLAY FLEX  AND MEDIA QUERY! 😄*
 
 ## The Challenge : https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub
 
